@@ -15,6 +15,7 @@ public class ArrayListDemo {
 	 * 
 	 */
 	public static ArrayList<Integer> al = new ArrayList<Integer>();
+	public static ArrayList<String> strAl = new ArrayList<String>();
 	
 	public ArrayListDemo() {
 		// TODO Auto-generated constructor stub
@@ -33,6 +34,13 @@ public class ArrayListDemo {
 		ArrayListDemo ald = new ArrayListDemo();
 		ald.addInt(147);
 		System.out.println(al);
+		strAl.add("\"super\",\"duper\"");
+		strAl.add("\"super\",\"duper1\"");
+		System.out.println(strAl);
+		for (String str : strAl) {
+			System.out.println(str.split(",")[1]+", "+str.split(",")[0]);
+			
+		}
 	}
 
 }
