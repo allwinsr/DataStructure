@@ -14,7 +14,6 @@ public class PermuPrint {
 
 	private int no = 5;
 	private int[] allPossibles = { 1, 2,3,4,5 };
-	private Stack<Integer> stack = new Stack<Integer>();
 
 	public PermuPrint() {
 	}
